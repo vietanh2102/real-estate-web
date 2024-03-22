@@ -15,8 +15,8 @@ function LocationPost() {
     })
 
     const locationRef = useRef<HTMLDivElement>(null)
-    const locationHeith = locationRef.current?.clientHeight
-    const condition = useState(false)
+    // const locationHeith = locationRef.current?.clientHeight
+    // const condition = useState(false)
     return (
         <div ref={locationRef} className={cx("container")}>
             <h3 className={cx("title")}>Bất động sản theo địa điểm</h3>
